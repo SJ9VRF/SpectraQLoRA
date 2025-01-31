@@ -2,6 +2,9 @@
 
 A novel fine-tuning method can be created by combining QLoRA and Spectrum to achieve both memory efficiency and optimal adaptation in LLMs. Below is a brainstormed approach that leverages the strengths of both methods.
 
+![Screenshot_2025-01-31_at_7 16 30_AM-removebg-preview](https://github.com/user-attachments/assets/3519da3b-7033-44a1-9a78-d2166c79b280)
+
+
 ## Why Combine QLoRA & Spectrum?
 
 ### 1. QLoRA Strengths:
