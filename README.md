@@ -1,9 +1,9 @@
-# SpectraQLoRA: Hybrid Fine-Tuning Approach: QLoRA + Spectrum
-
-A novel fine-tuning method can be created by combining QLoRA and Spectrum to achieve both memory efficiency and optimal adaptation in LLMs. Below is a brainstormed approach that leverages the strengths of both methods.
+# SpectraQLoRA
 
 ![Screenshot_2025-01-31_at_7 16 30_AM-removebg-preview](https://github.com/user-attachments/assets/3519da3b-7033-44a1-9a78-d2166c79b280)
 
+# SpectraQLoRA: Hybrid Fine-Tuning Approach: QLoRA + Spectrum
+A novel fine-tuning method can be created by combining QLoRA and Spectrum to achieve both memory efficiency and optimal adaptation in LLMs. Below is a brainstormed approach that leverages the strengths of both methods.
 
 ## Why Combine QLoRA & Spectrum?
 
@@ -48,7 +48,7 @@ A novel fine-tuning method can be created by combining QLoRA and Spectrum to ach
    - Works well on multi-GPU setups with limited VRAM.
    - Can be extended to different LLM architectures (GPT, T5, Llama).
 
-## Ablation SpectraQLoRA 1: Adaptive Low-Rank Spectrum Fine-Tuning (ALoRS)
+## Ablation SpectraQLoRA 2: Adaptive Low-Rank Spectrum Fine-Tuning (ALoRS)
 
 ### Step 1: Model Preparation
 - 4-bit QLoRA quantization is applied to the model, reducing memory usage.
@@ -75,7 +75,7 @@ A novel fine-tuning method can be created by combining QLoRA and Spectrum to ach
 - ✅ **Better Learning Dynamics:** High-SNR layers get more LoRA capacity, while medium-SNR layers get limited adaptation, optimizing resource allocation.
 - ✅ **Scalability:** Works well across different model sizes (7B, 13B, 65B) by dynamically adjusting layer ranks.
 
-## Ablation SpectraQLoRA 2: Spectral Gradient Merging (SGM)
+## Ablation SpectraQLoRA 3: Spectral Gradient Merging (SGM)
 
 ### Step 1: Model Preparation
 - Apply QLoRA’s 4-bit quantization, reducing memory while maintaining performance.
