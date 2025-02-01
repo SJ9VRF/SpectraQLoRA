@@ -10,7 +10,7 @@
 
 
 # SpectraQLoRA: Hybrid Fine-Tuning Approach: QLoRA + Spectrum
-A novel fine-tuning method can be created by combining QLoRA and Spectrum to achieve both memory efficiency and optimal adaptation in LLMs. Below is a brainstormed approach that leverages the strengths of both methods.
+A  fine-tuning method can be created by combining QLoRA and Spectrum to achieve both memory efficiency and optimal adaptation in LLMs. 
 
 ## Why Combine QLoRA & Spectrum?
 
