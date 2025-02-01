@@ -1,1 +1,25 @@
+model:
+  name: "bert-base-uncased"
+  num_labels: 2
+
+training:
+  batch_size: 8
+  epochs: 3
+  learning_rate: 2e-5
+  lora_r: 8
+  lora_alpha: 32
+  lora_dropout: 0.05
+
+spectrum:
+  snr_threshold: 0.5  # Threshold for high-SNR layer selection
+  merge_threshold: 0.1  # Merge layers if SNR difference is below this value
+
+dataset:
+  name: "imdb"
+  train_size: 1000
+  test_size: 1000
+
+output:
+  dir: "./output"
+  save_model: "sgm_finetuned.pth"
 
