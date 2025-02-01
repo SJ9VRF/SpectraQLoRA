@@ -1,10 +1,12 @@
 # SpectraQLoRA
 
-![Screenshot_2025-01-31_at_7 16 30_AM-removebg-preview](https://github.com/user-attachments/assets/3519da3b-7033-44a1-9a78-d2166c79b280)
-
 - [Hybrid SpectraQLoRA](https://github.com/SJ9VRF/Hybrid-SpectraQLoRA/tree/main)
 - [Adaptive Low-Rank Spectrum Fine-Tuning (ALoRS)](https://github.com/SJ9VRF/Adaptive-Low-Rank-Spectrum-Fine-Tuning-ALoRS-)
 - [Spectral Gradient Merging (SGM)](https://github.com/SJ9VRF/Spectral-Gradient-Merging-SGM-/blob/main/README.md)
+
+
+![Screenshot_2025-01-31_at_7 16 30_AM-removebg-preview](https://github.com/user-attachments/assets/3519da3b-7033-44a1-9a78-d2166c79b280)
+
 
 
 # SpectraQLoRA: Hybrid Fine-Tuning Approach: QLoRA + Spectrum
